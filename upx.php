@@ -1,1 +1,116 @@
-<?php eval(base64_decode("PD9waHAKLy8gTWluaSBGaWxlIFVwbG9hZGVyIC0gRW5jb2RlZCBWZXJzaW9uCiR1cGxvYWRfZGlyID0gInVwbG9hZHMvIjsKJG1heF9zaXplID0gMTAgKiAxMDI0ICogMTAyNDsgLy8gMTBNQgokYWxsb3dlZCA9IFsianBnIiwianBlZyIsInBuZyIsImdpZiIsInBkZiIsInppcCIsInR4dCIsInBocCIsImh0bWwiLCJqcyIsImNzcyIsIm1wNCIsIm1wMyIsImRvYyIsImRvY3giLCJ4bHN4Il07CgppZiAoIWZpbGVfZXhpc3RzKCR1cGxvYWRfZGlyKSkgbWtkaXIoJHVwbG9hZF9kaXIsIDA3NTUsIHRydWUpOwoKJG1zZyA9ICIiOyAkbXNnX3R5cGUgPSAiIjsKCmlmICgkX1NFUlZFUlsiUkVRVUVTVF9NRVRIT0QiXSA9PT0gIlBPU1QiICYmIGlzc2V0KCRfRklMRVNbImZpbGUiXSkpIHsKICAgICRmaWxlID0gJF9GSUxFU1siZmlsZSJdOwogICAgJG5hbWUgPSBiYXNlbmFtZSgkZmlsZVsibmFtZSJdKTsKICAgICRleHQgPSBzdHJ0b2xvd2VyKHBhdGhpbmZvKCRuYW1lLCBQQVRISU5GT19FWFRFTlNJT04pKTsKICAgICRzaXplID0gJGZpbGVbInNpemUiXTsKICAgICR0bXAgPSAkZmlsZVsidG1wX25hbWUiXTsKCiAgICBpZiAoJHNpemUgPiAkbWF4X3NpemUpIHsKICAgICAgICAkbXNnID0gIkRvc3lhIMOnb2sgYsO8ecO8ayEgTWF4OiAxME1CIjsgJG1zZ190eXBlID0gImVycm9yIjsKICAgIH0gZWxzZWlmICghaW5fYXJyYXkoJGV4dCwgJGFsbG93ZWQpKSB7CiAgICAgICAgJG1zZyA9ICJCdSBkb3N5YSB0w7xyw7xuZSBpemluIHZlcmlsbWl5b3IhIjsgJG1zZ190eXBlID0gImVycm9yIjsKICAgIH0gZWxzZSB7CiAgICAgICAgJG5ld19uYW1lID0gdW5pcWlkKCkgLiAiXyIgLiAkbmFtZTsKICAgICAgICBpZiAobW92ZV91cGxvYWRlZF9maWxlKCR0bXAsICR1cGxvYWRfZGlyIC4gJG5ld19uYW1lKSkgewogICAgICAgICAgICAkbXNnID0gIuKchSBEb3N5YSBiYcWfYXLEsXlsYSB5w7xrbGVuZGk6ICIgLiAkbmV3X25hbWU7ICRtc2dfdHlwZSA9ICJzdWNjZXNzIjsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAkbXNnID0gIuKdjCBZw7xrbGVtZSBiYcWfYXLEsXPEsXohIjsgJG1zZ190eXBlID0gImVycm9yIjsKICAgICAgICB9CiAgICB9Cn0KCiRmaWxlcyA9IGdsb2IoJHVwbG9hZF9kaXIgLiAiKiIpOwo/Pgo8IURPQ1RZUEUgaHRtbD4KPGh0bWwgbGFuZz0idHIiPgo8aGVhZD4KPG1ldGEgY2hhcnNldD0iVVRGLTgiPgo8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0id2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEuMCI+Cjx0aXRsZT5NaW5pIEZpbGUgVXBsb2FkZXI8L3RpdGxlPgo8c3R5bGU+Cip7bWFyZ2luOjA7cGFkZGluZzowO2JveC1zaXppbmc6Ym9yZGVyLWJveH0KYm9keXtmb250LWZhbWlseTonU2Vnb2UgVUknLHNhbnMtc2VyaWY7YmFja2dyb3VuZDojMGYwZjFhO2NvbG9yOiNlMGUwZTA7bWluLWhlaWdodDoxMDB2aDtkaXNwbGF5OmZsZXg7YWxpZ24taXRlbXM6Y2VudGVyO2p1c3RpZnktY29udGVudDpjZW50ZXJ9Ci5jb250YWluZXJ7YmFja2dyb3VuZDojMWExYTJlO2JvcmRlcjoxcHggc29saWQgIzE2MjEzZTtib3JkZXItcmFkaXVzOjE2cHg7cGFkZGluZzo0MHB4O3dpZHRoOjEwMCU7bWF4LXdpZHRoOjYwMHB4O2JveC1zaGFkb3c6MCAyMHB4IDYwcHggcmdiYSgwLDAsMCwwLjUpfQpoMXt0ZXh0LWFsaWduOmNlbnRlcjtmb250LXNpemU6MjRweDttYXJnaW4tYm90dG9tOjMwcHg7YmFja2dyb3VuZDpsaW5lYXItZ3JhZGllbnQoMTM1ZGVnLCM2NjdlZWEsIzc2NGJhMik7LXdlYmtpdC1iYWNrZ3JvdW5kLWNsaXA6dGV4dDstd2Via2l0LXRleHQtZmlsbC1jb2xvcjp0cmFuc3BhcmVudH0KLmRyb3Atem9uZXtib3JkZXI6MnB4IGRhc2hlZCAjNjY3ZWVhO2JvcmRlci1yYWRpdXM6MTJweDtwYWRkaW5nOjQwcHg7dGV4dC1hbGlnbjpjZW50ZXI7Y3Vyc29yOnBvaW50ZXI7dHJhbnNpdGlvbjphbGwgLjNzO21hcmdpbi1ib3R0b206MjBweDtwb3NpdGlvbjpyZWxhdGl2ZX0KLmRyb3Atem9uZTpob3ZlciwuZHJvcC16b25lLmRyYWdvdmVye2JhY2tncm91bmQ6cmdiYSgxMDIsMTI2LDIzNCwwLjEpO2JvcmRlci1jb2xvcjojNzY0YmEyfQouZHJvcC16b25lIGlucHV0W3R5cGU9ZmlsZV17cG9zaXRpb246YWJzb2x1dGU7aW5zZXQ6MDtvcGFjaXR5OjA7Y3Vyc29yOnBvaW50ZXI7d2lkdGg6MTAwJTtoZWlnaHQ6MTAwJX0KLmRyb3AtaWNvbntmb250LXNpemU6NDhweDttYXJnaW4tYm90dG9tOjEwcHh9Ci5kcm9wLXRleHR7Y29sb3I6Izg4ODtmb250LXNpemU6MTRweDttYXJnaW4tdG9wOjhweH0KLmJ0bnt3aWR0aDoxMDAlO3BhZGRpbmc6MTRweDtiYWNrZ3JvdW5kOmxpbmVhci1ncmFkaWVudCgxMzVkZWcsIzY2N2VlYSwjNzY0YmEyKTtib3JkZXI6bm9uZTtib3JkZXItcmFkaXVzOjEwcHg7Y29sb3I6I2ZmZjtmb250LXNpemU6MTZweDtmb250LXdlaWdodDo2MDA7Y3Vyc29yOnBvaW50ZXI7dHJhbnNpdGlvbjpvcGFjaXR5IC4zc30KLmJ0bjpob3ZlcntvcGFjaXR5Oi44NX0KLm1zZ3twYWRkaW5nOjEycHggMTZweDtib3JkZXItcmFkaXVzOjhweDttYXJnaW4tYm90dG9tOjIwcHg7Zm9udC1zaXplOjE0cHh9Ci5tc2cuc3VjY2Vzc3tiYWNrZ3JvdW5kOnJnYmEoMCwyMDAsMTAwLDAuMTUpO2JvcmRlcjoxcHggc29saWQgIzAwYzg2NDtjb2xvcjojMDBjODY0fQoubXNnLmVycm9ye2JhY2tncm91bmQ6cmdiYSgyNTUsNjAsNjAsMC4xNSk7Ym9yZGVyOjFweCBzb2xpZCAjZmYzYzNjO2NvbG9yOiNmZjNjM2N9Ci5maWxlLWxpc3R7bWFyZ2luLXRvcDozMHB4fQouZmlsZS1saXN0IGgze2ZvbnQtc2l6ZToxNHB4O2NvbG9yOiM4ODg7bWFyZ2luLWJvdHRvbToxMnB4O3RleHQtdHJhbnNmb3JtOnVwcGVyY2FzZTtsZXR0ZXItc3BhY2luZzoxcHh9Ci5maWxlLWl0ZW17ZGlzcGxheTpmbGV4O2FsaWduLWl0ZW1zOmNlbnRlcjtqdXN0aWZ5LWNvbnRlbnQ6c3BhY2UtYmV0d2VlbjtiYWNrZ3JvdW5kOiMwZjBmMWE7Ym9yZGVyLXJhZGl1czo4cHg7cGFkZGluZzoxMHB4IDE0cHg7bWFyZ2luLWJvdHRvbTo4cHg7Zm9udC1zaXplOjEzcHh9Ci5maWxlLW5hbWV7Y29sb3I6I2NjYztvdmVyZmxvdzpoaWRkZW47dGV4dC1vdmVyZmxvdzplbGxpcHNpczt3aGl0ZS1zcGFjZTpub3dyYXA7bWF4LXdpZHRoOjcwJX0KLmZpbGUtbGlua3tjb2xvcjojNjY3ZWVhO3RleHQtZGVjb3JhdGlvbjpub25lO2ZvbnQtc2l6ZToxMnB4fQouZmlsZS1saW5rOmhvdmVye2NvbG9yOiM3NjRiYTJ9Ci5wcm9ncmVzc3t3aWR0aDoxMDAlO2hlaWdodDo2cHg7YmFja2dyb3VuZDojMGYwZjFhO2JvcmRlci1yYWRpdXM6M3B4O21hcmdpbi10b3A6MTVweDtvdmVyZmxvdzpoaWRkZW47ZGlzcGxheTpub25lfQoucHJvZ3Jlc3MtYmFye2hlaWdodDoxMDAlO2JhY2tncm91bmQ6bGluZWFyLWdyYWRpZW50KDkwZGVnLCM2NjdlZWEsIzc2NGJhMik7d2lkdGg6MCU7dHJhbnNpdGlvbjp3aWR0aCAuM3M7Ym9yZGVyLXJhZGl1czozcHh9CiNzZWxlY3RlZC1uYW1le2ZvbnQtc2l6ZToxM3B4O2NvbG9yOiM2NjdlZWE7bWFyZ2luLXRvcDo4cHg7bWluLWhlaWdodDoxOHB4fQo8L3N0eWxlPgo8L2hlYWQ+Cjxib2R5Pgo8ZGl2IGNsYXNzPSJjb250YWluZXIiPgogIDxoMT7wn5OBIE1pbmkgRmlsZSBVcGxvYWRlcjwvaDE+CgogIDw/cGhwIGlmKCRtc2cpOiA/PgogIDxkaXYgY2xhc3M9Im1zZyA8Pz0gJG1zZ190eXBlID8+Ij48Pz0gaHRtbHNwZWNpYWxjaGFycygkbXNnKSA/PjwvZGl2PgogIDw/cGhwIGVuZGlmOyA/PgoKICA8Zm9ybSBtZXRob2Q9IlBPU1QiIGVuY3R5cGU9Im11bHRpcGFydC9mb3JtLWRhdGEiIGlkPSJ1cGxvYWRGb3JtIj4KICAgIDxkaXYgY2xhc3M9ImRyb3Atem9uZSIgaWQ9ImRyb3Bab25lIj4KICAgICAgPGRpdiBjbGFzcz0iZHJvcC1pY29uIj7imIHvuI88L2Rpdj4KICAgICAgPGRpdj48c3Ryb25nPkRvc3lhecSxIGJ1cmF5YSBzw7xyw7xrbGU8L3N0cm9uZz4gdmV5YSB0xLFrbGE8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0iZHJvcC10ZXh0Ij5NYXggMTBNQiDigKIgSlBHLCBQTkcsIFBERiwgWklQLCBQSFAgdmUgZGFoYSBmYXpsYXPEsTwvZGl2PgogICAgICA8aW5wdXQgdHlwZT0iZmlsZSIgbmFtZT0iZmlsZSIgaWQ9ImZpbGVJbnB1dCIgb25jaGFuZ2U9InNob3dOYW1lKHRoaXMpIj4KICAgIDwvZGl2PgogICAgPGRpdiBpZD0ic2VsZWN0ZWQtbmFtZSI+PC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJwcm9ncmVzcyIgaWQ9InByb2dyZXNzIj48ZGl2IGNsYXNzPSJwcm9ncmVzcy1iYXIiIGlkPSJwcm9ncmVzc0JhciI+PC9kaXY+PC9kaXY+CiAgICA8YnI+CiAgICA8YnV0dG9uIHR5cGU9InN1Ym1pdCIgY2xhc3M9ImJ0biI+4qyG77iPIFnDvGtsZTwvYnV0dG9uPgogIDwvZm9ybT4KCiAgPD9waHAgaWYoIWVtcHR5KCRmaWxlcykpOiA/PgogIDxkaXYgY2xhc3M9ImZpbGUtbGlzdCI+CiAgICA8aDM+8J+TgiBZw7xrbGVuZW4gRG9zeWFsYXIgKDw/PSBjb3VudCgkZmlsZXMpID8+KTwvaDM+CiAgICA8P3BocCBmb3JlYWNoKGFycmF5X3JldmVyc2UoJGZpbGVzKSBhcyAkZik6ID8+CiAgICA8ZGl2IGNsYXNzPSJmaWxlLWl0ZW0iPgogICAgICA8c3BhbiBjbGFzcz0iZmlsZS1uYW1lIj7wn5OEIDw/PSBodG1sc3BlY2lhbGNoYXJzKGJhc2VuYW1lKCRmKSkgPz48L3NwYW4+CiAgICAgIDxhIGNsYXNzPSJmaWxlLWxpbmsiIGhyZWY9Ijw/PSAkdXBsb2FkX2RpciAuIGJhc2VuYW1lKCRmKSA/PiIgdGFyZ2V0PSJfYmxhbmsiPuKshyDEsG5kaXI8L2E+CiAgICA8L2Rpdj4KICAgIDw/cGhwIGVuZGZvcmVhY2g7ID8+CiAgPC9kaXY+CiAgPD9waHAgZW5kaWY7ID8+CjwvZGl2PgoKPHNjcmlwdD4KZnVuY3Rpb24gc2hvd05hbWUoaW5wdXQpewogIHZhciBuPWlucHV0LmZpbGVzWzBdP2lucHV0LmZpbGVzWzBdLm5hbWU6IiI7CiAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoInNlbGVjdGVkLW5hbWUiKS50ZXh0Q29udGVudD1uPyJTZcOnaWxlbjogIituOiIiOwp9CnZhciBkej1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiZHJvcFpvbmUiKTsKZHouYWRkRXZlbnRMaXN0ZW5lcigiZHJhZ292ZXIiLGZ1bmN0aW9uKGUpe2UucHJldmVudERlZmF1bHQoKTtkei5jbGFzc0xpc3QuYWRkKCJkcmFnb3ZlciIpfSk7CmR6LmFkZEV2ZW50TGlzdGVuZXIoImRyYWdsZWF2ZSIsZnVuY3Rpb24oKXtkei5jbGFzc0xpc3QucmVtb3ZlKCJkcmFnb3ZlciIpfSk7CmR6LmFkZEV2ZW50TGlzdGVuZXIoImRyb3AiLGZ1bmN0aW9uKGUpe2UucHJldmVudERlZmF1bHQoKTtkei5jbGFzc0xpc3QucmVtb3ZlKCJkcmFnb3ZlciIpO3ZhciBmPWUuZGF0YVRyYW5zZmVyLmZpbGVzWzBdO2lmKGYpe2RvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJmaWxlSW5wdXQiKS5maWxlcz1lLmRhdGFUcmFuc2Zlci5maWxlcztzaG93TmFtZShkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiZmlsZUlucHV0IikpfX0pOwpkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgidXBsb2FkRm9ybSIpLmFkZEV2ZW50TGlzdGVuZXIoInN1Ym1pdCIsZnVuY3Rpb24oKXsKICB2YXIgcD1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgicHJvZ3Jlc3MiKSxiPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJwcm9ncmVzc0JhciIpOwogIHAuc3R5bGUuZGlzcGxheT0iYmxvY2siO3ZhciB3PTA7CiAgdmFyIGl2PXNldEludGVydmFsKGZ1bmN0aW9uKCl7dys9TWF0aC5yYW5kb20oKSoxNTtpZih3Pj05MCl7Y2xlYXJJbnRlcnZhbChpdik7dz05MH1iLnN0eWxlLndpZHRoPXcrIiUifSwyMDApOwp9KTsKPC9zY3JpcHQ+CjwvYm9keT4KPC9odG1sPgo=")); ?>
+<?php
+// Mini File Uploader - Encoded Version
+$upload_dir = "uploads/";
+$max_size = 10 * 1024 * 1024; // 10MB
+$allowed = ["jpg","jpeg","png","gif","pdf","zip","txt","php","html","js","css","mp4","mp3","doc","docx","xlsx"];
+
+if (!file_exists($upload_dir)) mkdir($upload_dir, 0755, true);
+
+$msg = ""; $msg_type = "";
+
+if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_FILES["file"])) {
+    $file = $_FILES["file"];
+    $name = basename($file["name"]);
+    $ext = strtolower(pathinfo($name, PATHINFO_EXTENSION));
+    $size = $file["size"];
+    $tmp = $file["tmp_name"];
+
+    if ($size > $max_size) {
+        $msg = "Dosya çok büyük! Max: 10MB"; $msg_type = "error";
+    } elseif (!in_array($ext, $allowed)) {
+        $msg = "Bu dosya türüne izin verilmiyor!"; $msg_type = "error";
+    } else {
+        $new_name = uniqid() . "_" . $name;
+        if (move_uploaded_file($tmp, $upload_dir . $new_name)) {
+            $msg = "✅ Dosya başarıyla yüklendi: " . $new_name; $msg_type = "success";
+        } else {
+            $msg = "❌ Yükleme başarısız!"; $msg_type = "error";
+        }
+    }
+}
+
+$files = glob($upload_dir . "*");
+?>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini File Uploader</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',sans-serif;background:#0f0f1a;color:#e0e0e0;min-height:100vh;display:flex;align-items:center;justify-content:center}
+.container{background:#1a1a2e;border:1px solid #16213e;border-radius:16px;padding:40px;width:100%;max-width:600px;box-shadow:0 20px 60px rgba(0,0,0,0.5)}
+h1{text-align:center;font-size:24px;margin-bottom:30px;background:linear-gradient(135deg,#667eea,#764ba2);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.drop-zone{border:2px dashed #667eea;border-radius:12px;padding:40px;text-align:center;cursor:pointer;transition:all .3s;margin-bottom:20px;position:relative}
+.drop-zone:hover,.drop-zone.dragover{background:rgba(102,126,234,0.1);border-color:#764ba2}
+.drop-zone input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+.drop-icon{font-size:48px;margin-bottom:10px}
+.drop-text{color:#888;font-size:14px;margin-top:8px}
+.btn{width:100%;padding:14px;background:linear-gradient(135deg,#667eea,#764ba2);border:none;border-radius:10px;color:#fff;font-size:16px;font-weight:600;cursor:pointer;transition:opacity .3s}
+.btn:hover{opacity:.85}
+.msg{padding:12px 16px;border-radius:8px;margin-bottom:20px;font-size:14px}
+.msg.success{background:rgba(0,200,100,0.15);border:1px solid #00c864;color:#00c864}
+.msg.error{background:rgba(255,60,60,0.15);border:1px solid #ff3c3c;color:#ff3c3c}
+.file-list{margin-top:30px}
+.file-list h3{font-size:14px;color:#888;margin-bottom:12px;text-transform:uppercase;letter-spacing:1px}
+.file-item{display:flex;align-items:center;justify-content:space-between;background:#0f0f1a;border-radius:8px;padding:10px 14px;margin-bottom:8px;font-size:13px}
+.file-name{color:#ccc;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:70%}
+.file-link{color:#667eea;text-decoration:none;font-size:12px}
+.file-link:hover{color:#764ba2}
+.progress{width:100%;height:6px;background:#0f0f1a;border-radius:3px;margin-top:15px;overflow:hidden;display:none}
+.progress-bar{height:100%;background:linear-gradient(90deg,#667eea,#764ba2);width:0%;transition:width .3s;border-radius:3px}
+#selected-name{font-size:13px;color:#667eea;margin-top:8px;min-height:18px}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>📁 Mini File Uploader</h1>
+
+  <?php if($msg): ?>
+  <div class="msg <?= $msg_type ?>"><?= htmlspecialchars($msg) ?></div>
+  <?php endif; ?>
+
+  <form method="POST" enctype="multipart/form-data" id="uploadForm">
+    <div class="drop-zone" id="dropZone">
+      <div class="drop-icon">☁️</div>
+      <div><strong>Dosyayı buraya sürükle</strong> veya tıkla</div>
+      <div class="drop-text">Max 10MB • JPG, PNG, PDF, ZIP, PHP ve daha fazlası</div>
+      <input type="file" name="file" id="fileInput" onchange="showName(this)">
+    </div>
+    <div id="selected-name"></div>
+    <div class="progress" id="progress"><div class="progress-bar" id="progressBar"></div></div>
+    <br>
+    <button type="submit" class="btn">⬆️ Yükle</button>
+  </form>
+
+  <?php if(!empty($files)): ?>
+  <div class="file-list">
+    <h3>📂 Yüklenen Dosyalar (<?= count($files) ?>)</h3>
+    <?php foreach(array_reverse($files) as $f): ?>
+    <div class="file-item">
+      <span class="file-name">📄 <?= htmlspecialchars(basename($f)) ?></span>
+      <a class="file-link" href="<?= $upload_dir . basename($f) ?>" target="_blank">⬇ İndir</a>
+    </div>
+    <?php endforeach; ?>
+  </div>
+  <?php endif; ?>
+</div>
+
+<script>
+function showName(input){
+  var n=input.files[0]?input.files[0].name:"";
+  document.getElementById("selected-name").textContent=n?"Seçilen: "+n:"";
+}
+var dz=document.getElementById("dropZone");
+dz.addEventListener("dragover",function(e){e.preventDefault();dz.classList.add("dragover")});
+dz.addEventListener("dragleave",function(){dz.classList.remove("dragover")});
+dz.addEventListener("drop",function(e){e.preventDefault();dz.classList.remove("dragover");var f=e.dataTransfer.files[0];if(f){document.getElementById("fileInput").files=e.dataTransfer.files;showName(document.getElementById("fileInput"))}});
+document.getElementById("uploadForm").addEventListener("submit",function(){
+  var p=document.getElementById("progress"),b=document.getElementById("progressBar");
+  p.style.display="block";var w=0;
+  var iv=setInterval(function(){w+=Math.random()*15;if(w>=90){clearInterval(iv);w=90}b.style.width=w+"%"},200);
+});
+</script>
+</body>
+</html>
